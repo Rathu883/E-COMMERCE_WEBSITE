@@ -1,0 +1,53 @@
+/* Portfolio Section */
+body{
+    background-image: url(contact_us1.jpg);
+    text-align: center;
+}
+.portfolio-section {
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.portfolio-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-card {
+    width: 250px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.portfolio-item-title {
+    font-size: 1.5em;
+    margin: 10px;
+    color: #333;
+}
+
+.portfolio-description {
+    font-size: 1em;
+    margin: 10px;
+    color: #666;
+}
